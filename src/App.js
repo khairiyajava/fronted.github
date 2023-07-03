@@ -24,7 +24,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Glist/>}/>
           <Route path='/student' element={<Student/>}/>
-          <Route path='/ed' element={<Eddit/>}/>
+          <Route path='/ed/:stu_Id' element={<Eddit/>}/>
           <Route path='/ad' element={<Glist/>}/>
           <Route path='/edit' element={<Glist/>}/>
         </Routes>
